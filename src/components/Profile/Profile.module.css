@@ -5,6 +5,7 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  background-color: var(--light-color);
 }
 
 .description {
@@ -45,7 +46,6 @@
   padding-top: 30px;
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
 }
 
 .wrap {
@@ -57,7 +57,7 @@
   min-height: 100px;
   border: 2px solid var(--secondary-color);
   border-radius: 6px;
-  background-color: rgb(134 134 134 / 12%);
+  background-color: var(--bg-color);
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transition-duration: 800ms;
@@ -65,7 +65,7 @@
 
 .wrap:hover {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--light-color);
   transform: translateY(6px);
 }
 

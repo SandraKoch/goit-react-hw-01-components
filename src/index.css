@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: var(--primary-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,6 +23,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
@@ -38,4 +40,6 @@ code {
 :root {
   --primary-color: rgb(0, 0, 0);
   --secondary-color: rgb(150, 150, 150);
+  --bg-color: rgb(134 134 134 / 12%);
+  --light-color: rgb(255, 255, 255);
 }
