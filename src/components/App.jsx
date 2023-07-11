@@ -20,13 +20,7 @@ export const App = () => (
     <h1>Task 2</h1>
     <Statistics title={data.title} stats={data} />
     <h1>Task 3</h1>
-    <FriendList friends={friends}>
-      <FriendListItem
-        name={friends.name}
-        isOnline={friends.isOnline}
-        avatar={friends.avatar}
-      />
-    </FriendList>
+    <FriendList friends={friends} />
     <h1>Task 4</h1>
     <TransactionHistory items={transactions} />
   </>
