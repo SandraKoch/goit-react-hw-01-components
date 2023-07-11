@@ -15,8 +15,12 @@ export const FriendList = ({ friends }) => (
 
 export const FriendListItem = ({ avatar, name, isOnline }) => (
   <li className={css.item}>
-    <span className={css.itemStatus}>{isOnline}</span>
-    <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
-    <p className={css.name}>{name}</p>
+    <div className={css.wrapper}>
+      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={css.name}>{name}</p>
+    </div>
+    <span
+      className={`${css.itemStatus} ${isOnline ? css.online : css.offline}`}
+    ></span>
   </li>
 );
