@@ -1,0 +1,22 @@
+.friendList {
+  border: 2px solid var(--secondary-color);
+  border-radius: 6px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--light-color);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  transition-duration: 800ms;
+  border-radius: 6px;
+}
+
+.name {
+  margin-left: 20px;
+}
